@@ -1,16 +1,11 @@
-﻿빌드 시작: 2015-09-14 오후 7:42:02
-     1>2 노드의 "C:\Users\Seung\Desktop\NSH\Common\Common.vcxproj" 프로젝트(Build 대상)입니다.
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Common.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Common.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Common.cpp
-         Common.cpp
+﻿빌드 시작: 2015-09-15 오후 8:20:39
+     1>2 노드의 "C:\Users\Seung\Desktop\NSH_Server\Common\Common.vcxproj" 프로젝트(Build 대상)입니다.
+     1>CustomBuild:
+         Compiling Text.pidl ...
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Seung\Desktop\NSH\Debug\Common.lib" /NOLOGO Debug\Common.obj
-         Debug\stdafx.obj
-         Common.vcxproj -> C:\Users\Seung\Desktop\NSH\Debug\Common.lib
-     1>"C:\Users\Seung\Desktop\NSH\Common\Common.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+         Common.vcxproj -> C:\Users\Seung\Desktop\NSH_Server\Debug\Common.lib
+     1>"C:\Users\Seung\Desktop\NSH_Server\Common\Common.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:01.29
+경과 시간: 00:00:00.21

@@ -1,0 +1,8 @@
+global SocialC2S 3000
+{
+	RequestLogon([in] String villeName, [in] bool isNewVille);
+}
+global SocialS2C 4000
+{
+	ReplyLogon([in] int result, [in] String comment);
+}
