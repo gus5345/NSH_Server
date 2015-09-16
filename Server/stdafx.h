@@ -14,9 +14,7 @@
 #include "..\Common\Text_common.h"
 #include "..\Common\Text_proxy.h"
 #include "..\Common\Text_stub.h"
-#include "..\Common\Text_common.cpp"
-#include "..\Common\Text_common.cpp"
-#include "..\Common\Text_common.cpp"
+
 
 using namespace Proud;
 using namespace SocialC2S;

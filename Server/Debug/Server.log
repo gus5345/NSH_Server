@@ -1,12 +1,22 @@
-﻿빌드 시작: 2015-09-16 오후 4:25:23
+﻿빌드 시작: 2015-09-17 오전 1:34:38
      1>2 노드의 "C:\Users\Seung\Desktop\NSH_Server\Server\Server.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Server.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
-     1>c:\users\seung\desktop\nsh_server\server\stdafx.cpp : fatal error C1041: 프로그램 데이터베이스 'c:\users\seung\desktop\nsh_server\server\debug\vc120.idb'을(를) 열 수 없습니다. 여러 CL.EXE에서 동일한 .PDB 파일에 쓰는 경우 /FS를 사용하십시오.
-     1>cl : 명령줄 warning D9028: 최소 다시 빌드에 실패했습니다. 정상 빌드로 되돌립니다.
+     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(18): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(18): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
+     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(19): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(19): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
+     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(37): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(37): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
+     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(38): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(38): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
+     1>c:\users\seung\desktop\nsh_server\common\text_stub.h(22): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\users\seung\desktop\nsh_server\common\text_stub.h(22): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
+     1>c:\users\seung\desktop\nsh_server\common\text_stub.h(45): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\users\seung\desktop\nsh_server\common\text_stub.h(45): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
      1>"C:\Users\Seung\Desktop\NSH_Server\Server\Server.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
 
 빌드하지 못했습니다.
 
-경과 시간: 00:00:00.09
+경과 시간: 00:00:00.63

@@ -42,12 +42,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>C:\Program Files %28x86%29\Nettention\ProudNet\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files %28x86%29\Nettention\ProudNet\lib\Win32\VS2013\Debug;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Program Files %28x86%29\Nettention\ProudNet\lib\Win32\VS2013;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>C:\Program Files %28x86%29\Nettention\ProudNet\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files %28x86%29\Nettention\ProudNet\lib\Win32\VS2013\Debug;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Program Files %28x86%29\Nettention\ProudNet\lib\Win32\VS2013;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -89,6 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PIDLinclude.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

@@ -1,4 +1,6 @@
 rename cs(Proud::String, System.String);
+rename cs(Proud::CFastArray<int>, System.Collections.Generic.List<int>);
+
 
 global SocialC2S 3000
 {
