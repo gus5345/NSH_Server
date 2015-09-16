@@ -1,3 +1,5 @@
+rename cs(Proud::String, System.String);
+
 global SocialC2S 3000
 {
 	RequestLogon([in] String villeName, [in] bool isNewVille);

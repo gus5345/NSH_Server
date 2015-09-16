@@ -1,10 +1,13 @@
 #pragma once
-class Server : public INetServerEvent
+class Server : public INetServerEvent,public SocialC2S::Stub
 {
 public:
+
+	CNetServer * m_netServer;
+	SocialS2C::Proxy m_S2CProxy;
 	Server();
 	~Server();
-	CNetServer * m_netServer;
+
 	void Start();
 	virtual void OnClientJoin(CNetClientInfo *clientInfo);
 	virtual void OnClientLeave(CNetClientInfo *clientInfo, ErrorInfo *errorInfo, const ByteArray& comment);
@@ -18,4 +21,5 @@ public:
 	virtual void OnInformation(ErrorInfo *errorInfo) override{ printf("OnInformation : %s\n", StringT2A(errorInfo->ToString()).GetString()); }
 	virtual void OnException(Exception &e) override{ printf("OnInformation : %s\n", e.what()); }
 	virtual void OnNoRmiProcessed(Proud::RmiID rmiID) override {}
+	DECRMI_SocialC2S_RequestLogon;
 };

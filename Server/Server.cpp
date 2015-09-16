@@ -9,6 +9,8 @@ Server::Server()
 {
 	m_netServer = CNetServer::Create();
 	m_netServer->SetEventSink(this);
+	m_netServer->AttachProxy(&m_S2CProxy);
+	m_netServer->AttachStub(this);
 }
 Server::~Server()
 {
@@ -29,4 +31,9 @@ void Server::OnClientJoin(CNetClientInfo *clientInfo)
 void Server::OnClientLeave(CNetClientInfo *clientInfo, ErrorInfo *errorInfo, const ByteArray& comment)
 {
 	printf("%s: %d\n", clientInfo->m_HostID);
+}
+DEFRMI_SocialC2S_RequestLogon(Server)
+{
+	m_S2CProxy.ReplyLogon(remote, RmiContext::ReliableSend, 0, L"");
+	return true;
 }
