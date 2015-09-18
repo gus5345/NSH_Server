@@ -4,8 +4,6 @@
 //
 
 #pragma once
-#pragma comment(lib,"ProudNetServer.lib")
-
 #include "targetver.h"
 #include "ProudNetServer.h"
 #include <stdio.h>

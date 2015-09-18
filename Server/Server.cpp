@@ -29,11 +29,11 @@ void Server::Start()
 }
 void Server::OnClientJoin(CNetClientInfo *clientInfo)
 {
-	printf("%s: %d\n", clientInfo->m_HostID);
+	printf("%s: %d\n", "고유 할당 아이디", clientInfo->m_HostID);
 }
 void Server::OnClientLeave(CNetClientInfo *clientInfo, ErrorInfo *errorInfo, const ByteArray& comment)
 {
-	printf("%s: %d\n", clientInfo->m_HostID);
+	printf("%s: %d\n", "고유 할당 아이디", clientInfo->m_HostID);
 }
 DEFRMI_SocialC2S_RequestLogon(Server)
 {
