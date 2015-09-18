@@ -1,22 +1,21 @@
-﻿빌드 시작: 2015-09-17 오전 1:34:38
+﻿빌드 시작: 2015-09-18 오후 3:28:53
      1>2 노드의 "C:\Users\Seung\Desktop\NSH_Server\Server\Server.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Server.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Nettention\ProudNet\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Server.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
-     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(18): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(18): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
-     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(19): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(19): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
-     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(37): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(37): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
-     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(38): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-     1>c:\users\seung\desktop\nsh_server\common\text_proxy.h(38): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
-     1>c:\users\seung\desktop\nsh_server\common\text_stub.h(22): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-     1>c:\users\seung\desktop\nsh_server\common\text_stub.h(22): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
-     1>c:\users\seung\desktop\nsh_server\common\text_stub.h(45): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-     1>c:\users\seung\desktop\nsh_server\common\text_stub.h(45): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
-     1>"C:\Users\Seung\Desktop\NSH_Server\Server\Server.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Nettention\ProudNet\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Server.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Server.cpp main.cpp
+         Server.cpp
+         코드를 생성하고 있습니다...
+         건너뛰고 있습니다... (관련된 변경 내용 없음)
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Seung\Desktop\NSH_Server\Debug\Server.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Nettention\ProudNet\lib\Win32\VS2013\Debug" ProudNetServer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Seung\Desktop\NSH_Server\Debug\Server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Seung\Desktop\NSH_Server\Debug\Server.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Server.obj
+         Debug\stdafx.obj
+         C:\Users\Seung\Desktop\NSH_Server\Debug\Common.lib
+         Server.vcxproj -> C:\Users\Seung\Desktop\NSH_Server\Debug\Server.exe
+     1>"C:\Users\Seung\Desktop\NSH_Server\Server\Server.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
-빌드하지 못했습니다.
+빌드했습니다.
 
-경과 시간: 00:00:00.63
+경과 시간: 00:00:01.40

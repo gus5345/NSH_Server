@@ -95,11 +95,13 @@
   <ItemGroup>
     <CustomBuild Include="Text.PIDL">
       <FileType>Document</FileType>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PIDL.exe "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PIDL -cs C:\Users\Seung\Desktop\NSH_Server\Common/* -outdir C:\Users\Seung\Desktop\AnimalFarm\Assets\Script\PIDL
+C:\PIDL -c++ C:\Users\Seung\Desktop\NSH_Server\Common/* -outdir C:\Users\Seung\Desktop\NSH_Server\Common/</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compiling %(Filename).pidl ...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">#(directory)\%(filename)_proxy.h</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\PIDL.exe;%(AdditionalInputs)</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PIDL.exe "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PIDL -cs C:\Users\Seung\Desktop\NSH_Server\Common/* -outdir C:\Users\Seung\Desktop\AnimalFarm\Assets\Script\PIDL
+C:\PIDL -c++ C:\Users\Seung\Desktop\NSH_Server\Common/* -outdir C:\Users\Seung\Desktop\NSH_Server\Common/</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compiling %(Filename).pidl ...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">#(directory)\%(filename)_proxy.h</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\PIDL.exe;%(AdditionalInputs)</AdditionalInputs>

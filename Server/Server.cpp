@@ -4,6 +4,9 @@
 #include "stdafx.h"
 #include "Server.h"
 #include "..\Common\Common.h"
+#include "..\Common\Text_common.cpp"
+#include "..\Common\Text_proxy.cpp"
+#include "..\Common\Text_stub.cpp"
 
 Server::Server()
 {
